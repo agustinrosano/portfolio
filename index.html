@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<!-- -------------------- header ------------------------- -->
+    <header>
+        <a href="#" class="logo"> Portfolio</a>
+        <div class="toggle"></div>
+
+        <ul>
+            <li><a href="#"></a>Home</li>
+            <li><a href="#"></a>About</li>
+            <li><a href="#"></a>Skills</li>
+            <li><a href="#"></a>Works </li>
+            <li><a href="#"></a>Testimonial</li>
+            <li><a href="#"></a>Contact</li>
+        </ul>
+
+    </header>
+<!-- -------------------- banner ------------------------- -->
+
+    <section class="banner">
+        <div class="textBx">
+            <h2>Hello, I'm <br><span> Agustin Rosano </span></h2>
+            <h3> I 'm Front End Web Developer.</h3>
+            <a href="#" class="btn">About Me</a>
+        </div>
+    </section>
+<!-- --------------------about me ------------------------- -->
+    <section class="about">
+        <div class="heading">
+            <h2>About Me</h2> 
+        </div>
+
+        <div class="content">  
+                <div class="contentBx w50">
+                    <h3> I' m a Front End Web Developer.</h3>
+                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam iusto aliquid neque soluta delectus error tempore alias, quisquam ipsam placeat quae harum praesentium laborum eum, libero ratione. Quam, voluptas dolor!</p>
+                </div>
+
+                <div class="w50">
+                    <img src="img/img1.jpg" class="img">
+                </div>   
+
+        </div>
+    </section>   
+   <!--     15:44 min    -->     
+
+
+<!-- ------------- servicios ---------------   -->  
+    <section class="skills">
+
+        <div class="heading white">
+            <h2>My Skills</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="content">
+            <div class="skillsBx">
+                <img src="img/js2.jpg" alt="">
+                <h2> Javascript</h2>
+            </div>
+
+            <div class="skillsBx">
+                <img src="img/html.jpg" alt="">
+                <h2>HTML5</h2>
+            </div>
+
+            <div class="skillsBx">
+                <img src="img/css.jpg" alt="">
+                <h2> CSS</h2>
+            </div>
+        </div>
+       
+
+
+
+    </section>
+
+
+
+<!-- -----------------------scripts para arreglarrrr------------------------ -->
+        <script type="text/javascript">
+            window.addEventListener('scroll', function(){
+                var header = document.querySelector('header');
+                header.classList.toggle('sticky', window.scrollY > 0);
+               });
+
+        </script>
+   
+</body>
+</html>
