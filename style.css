@@ -67,9 +67,10 @@ header {
     transition: 0.5s;
 }
 
- header .sticky {
+ header.sticky {
     background:#fff;
     padding: 20px 100px;
+    color: #111;
     box-shadow: 0 5px 20px rgba(0,0, 0, 0.1);
  }
 
@@ -83,7 +84,8 @@ header {
     font-weight: 700;
     letter-spacing: 2px;
  }
- header .sticky .logo {
+
+ header.sticky .logo {
     color: #111;
  }
 
@@ -92,9 +94,15 @@ header {
     position : relative;
     display: flex;
  }
+
 header ul li {
     position: relative;
     color: #fff;
+    list-style:none;
+}
+header.sticky ul li{
+    position: relative;
+    color: #111;
     list-style:none;
 }
 
@@ -107,7 +115,7 @@ header ul li a {
 
 } 
 
-header .sticky ul li a {
+header.sticky ul li a {
     color: #111;
 }
 
@@ -187,3 +195,16 @@ img {
 }
 
 /* minuto 20:01*/
+.work .content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.work .content .workBx
+{
+    width: 50%;
+    padding:  20px;
+}
+.work.content .workBx img {
+max-width: 100%;
+}
