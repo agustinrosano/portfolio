@@ -148,12 +148,19 @@ header.sticky ul li a {
  margin-bottom:10px ;
 }
 
+.contentBx p{
+    margin-right: 25%;
+    margin-top: 10%;
+}
+
 .w50 {
     min-width: 50%;
 }
 
 img {
     max-width: 100%;
+    
+    padding: 10%;
 }
 
 .skills {
