@@ -328,14 +328,14 @@ max-width: 100%;
 @media (max-width:991px)
 {
     header,
-    header.sticky{
+    header.sticky {
         padding: 20px 50px;
         z-index: 1000;
     }
     .menu{
         position: fixed;
         top: 75px;
-        left: 0;
+        left: -100%;
         display: block;
         padding: 100px 50px;
         text-align: center;
@@ -344,10 +344,15 @@ max-width: 100%;
         background:#fff;
         transition: 0.5s;
         z-index: 1000;
-        border-top: 1px solid rgba(0,0, 0, 0.1);
+        border-top: 1px solid rgba(0,0, 0, 0.2);
+    }
+    .menu.activate{
+        left: 0%;
     }
     header ul li a {
         color: #111;
+        font-size: 24px;
+        margin: 10px;
     }
     .toggle
     {
@@ -357,6 +362,55 @@ max-width: 100%;
         background-position: center;
         background-repeat: no-repeat;
         background-size: 30px;
-/* ---------43:54-------  */
+        cursor: pointer;
+/* ---------43:54-------  */   
+    }
+    .toggle.activate{
+        background: url(img/close.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 25px;
+        cursor: pointer;
+
+    }
+    header.sticky .toggle
+    {
+        filter: invert(1);
+    }
+    section{
+        padding: 100px 50px;
+    }
+    .banner{
+        padding:150px 50px 100px;
+    }
+    .banner h2 {
+        font-size: 1.5em;
+    }
+    .banner h3 {
+        font-size: 1em;
+    }
+    .btn{
+        margin-top: 10px;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    .heading h2 {
+        font-size: 24px; ;
+    }
+    .contentBx h3 {
+        font-size: 20px;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .w50{
+        margin-bottom: 20px;
+    }
+    .skills .content .skillsBx{
+        margin: 10px;
+    }
+    .work .content .workBx {
+        width: 100%;
+        padding: 10px;
     }
 }
