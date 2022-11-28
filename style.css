@@ -212,15 +212,16 @@ img {
     
     
 }
-.work .content .workBx {
+.work .content .workBx  {
     width: 50%;
     padding: 20px;
    
 }
-.work.content .workBx img{
-max-width: 100%;
-
+.work.content .workBx a img{
+    max-width: 100%;
 }
+
+
 
 .contact {
     background: #111;
