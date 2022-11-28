@@ -214,13 +214,19 @@ img {
 }
 .work .content .workBx  {
     width: 50%;
-    padding: 20px;
+    padding: 10px;
    
+    
 }
 .work.content .workBx a img{
     max-width: 100%;
+    
 }
-
+.work .content .workBx:hover{
+    opacity: 5;
+    transform: translateY(-30px);
+    transition: 1.50;
+}
 
 
 .contact {
