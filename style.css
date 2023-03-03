@@ -316,6 +316,20 @@ img {
     flex-direction: column;
     font-weight: 300;
 }
+
+.contactInfoBx .box  .text a{
+    
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.contactInfoBx .box  .text a:hover{
+    color:#2196f3
+}
+
 .contactInfoBx .box  .text h3 {
     font-weight: 500;
     color: #2196f3;
